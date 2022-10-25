@@ -1,7 +1,7 @@
 {
   "name": "redis-cache",
   "version": "1.0.0",
-  "description": "Demmonstrate the redis cache operation",
+  "description": "Demonstrate the redis cache operation",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -12,7 +12,9 @@
     "axios": "^1.1.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20",
     "redis": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
